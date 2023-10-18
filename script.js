@@ -10,7 +10,7 @@ async function getWeatherAsync() {
 
     // Hard-coded weather values
     const icon = "☀️";
-    const description = 'nothing';
+    const description = '';
     const temperature = data.current.temperature_2m +'°C'
 
     weatherIcon.textContent = icon;
@@ -41,7 +41,7 @@ function getWeatherFetch(){
             .then(data => {
                 // Hard-coded weather values
                 const icon = "☀️";
-                const description = 'nothing';
+                const description = '';
                 const temperature = data.current.temperature_2m + '°C';
     
                 weatherIcon.textContent = icon;
@@ -79,7 +79,7 @@ function getWeatherFetch(){
     
                     // Hard-coded weather values
                     const icon = "☀️";
-                    const description = 'nothing';
+                    const description = '';
                     const temperature = data.current.temperature_2m + '°C';
     
                     weatherIcon.textContent = icon;
