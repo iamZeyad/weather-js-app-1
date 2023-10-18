@@ -16,7 +16,9 @@
             <input type="text" id="latitude" placeholder="Enter latitude...">
             <label for="longitude">Longitude:</label>
             <input type="text" id="longitude" placeholder="Enter longitude...">
-            <button type="button" onclick="getWeather()">Get Weather</button>
+            <button type="button" onclick="getWeatherAsync()">Get Weather using fetch async</button>
+            <button type="button" onclick="getWeatherFetch()">Get Weather by fetch</button>
+            <button type="button" onclick="getWeatherXHR()">Get Weather by fetch</button>
         </form>
         <div class="weather" id="weather">
             <i class="weather-icon" id="weather-icon"></i>
